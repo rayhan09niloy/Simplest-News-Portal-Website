@@ -73,8 +73,46 @@ a:hover {
 .bg-brand {
     background-color: #fab411;
 }
+.bd-dark {
+    background-color: #0e0e0e;
+}
+
+/* Fixed width */
+.w-40 {
+    width: 40px;
+}
+.w-48 {
+    width: 48px;
+}
+.w-56 {
+    width: 56px;
+}
+.w-72 {
+    width: 72px;
+}
 
 /* Fixed height */
+.h-40 {
+    height: 40px;
+}
+.h-48 {
+    height: 48px;
+}
 .h-56 {
-    max-height: 56px;
+    height: 56px;
+}
+.h-72 {
+    height: 72px;
+}
+
+/* Custom styles */
+.dp:hover {
+    background-color: #2b2b2c;
+    color: #d7dbf7 !important;
+    text-decoration: none;
+}
+.buton:hover {
+    background-color: #2b2b2c;
+    color: #d7dbf7 !important;
+    text-decoration: none;
 }
