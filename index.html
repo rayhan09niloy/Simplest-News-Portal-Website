@@ -20,7 +20,6 @@
 </head>
 
 <body>
-
     <!-- Top Bar -->
     <div
         class="container-fluid py-2 px-3 d-flex align-items-center justify-content-between fs-14 lh-14 bg-dark text-light">
@@ -46,42 +45,50 @@
     </div>
 
     <!-- Navigation Bar -->
-    <nav class="container-fluid navbar navbar-expand-lg bg-dark text-light px-3 py-2 h-72">
-        <a class="navbar-brand" href="index.html"><img
-                src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Logo\logo.png" alt="Logo"
-                class="img-fluid site-logo"></a>
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark text-light px-3 py-2">
+        <a class="navbar-brand" href="index.html"><img src="assets/Logo/logo.png" alt="Logo"
+                class="img-fluid site-logo" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button> -->
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto gap-3 align-items-center">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html" class="text-light">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="htmls/national.html" class="text-light">About</a>
+                    <a class="nav-link" href="about.html" class="text-light">About</a>
                 </li>
                 <li class="nav-item dropdown d-flex justify-content-center align-items-center gap-2">
-                    <a class="nav-link dropdown-toggle gap-2" data-bs-toggle="dropdown" href="htmls/politics.html"
-                        class="text-light">Categories</a>
+                    <button class="nav-link dropdown-toggle gap-2 border-0 bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</button>
 
                     <ul class="dropdown-menu bg-dark text-light list-unstyled">
-                        <li><a class="dropdown-item dp" href="category-National.html">National</a></li>
-                        <li><a class="dropdown-item dp" href="category-Politics.html">Politics</a></li>
-                        <li><a class="dropdown-item dp" href="category-Sports.html">Sports</a></li>
-                        <li><a class="dropdown-item dp" href="category-Education.html">Education</a></li>
-                        <li><a class="dropdown-item dp" href="category-Education.html">Entertainment</a></li>
+                        <li>
+                            <a class="dropdown-item dp" href="htmls/national.html">National</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dp" href="htmls/politics.html">Politics</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dp" href="htmls/sports.html">Sports</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dp" href="htmls/education.html">Education</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dp" href="htmls/entertainment.html">Entertainment</a>
+                        </li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="htmls/sports.html" class="text-light">Author</a>
+                    <a class="nav-link" href="authors.html" class="text-light">Author</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="reporter-login.html" class="text-light">Contact</a>
+                    <a class="nav-link" href="contact.html" class="text-light">Contact</a>
                 </li>
                 <li class="nav-item btn-sm btn-light buton">
-                    <a class="nav-link " href="reporter-login.html">Reporter Login</a>
+                    <a class="nav-link" href="reporter-login.html">Reporter Login</a>
                 </li>
             </ul>
         </div>
@@ -98,10 +105,12 @@
                     বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো
                 </span>
                 <span class="me-5">
-                    কিশোরদের জন্য চ্যাটজিপিটির বিশেষ সংস্করণ, থাকছে নিরাপত্তা ও শিক্ষাকেন্দ্রিক ফিচার
+                    কিশোরদের জন্য চ্যাটজিপিটির বিশেষ সংস্করণ, থাকছে নিরাপত্তা ও
+                    শিক্ষাকেন্দ্রিক ফিচার
                 </span>
                 <span class="me-5">
-                    বহু দূরের মহাজাগতিক বস্তু আবিষ্কার বাংলাদেশি জ্যোতির্বিদের, গ্রহ নাকি নক্ষত্র?
+                    বহু দূরের মহাজাগতিক বস্তু আবিষ্কার বাংলাদেশি জ্যোতির্বিদের, গ্রহ
+                    নাকি নক্ষত্র?
                 </span>
             </marquee>
         </div>
@@ -113,10 +122,14 @@
         <div class="col-6">
             <h2 class="mb-3 ps-3 border-start border-5 border-dark">Highlights</h2>
             <div class="d-flex flex-column gap-3 align-items-start">
-                <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-01.png" alt="News Image" class="img-fluid">
+                <img src="assets/Images/img-01.png" alt="News Image" class="img-fluid" />
                 <div class="d-flex flex-column gap-1 align-items-start">
                     <h3>‘অ্যালিস ইন ওয়ান্ডারল্যান্ড সিনড্রোম’ সম্পর্কে জানেন?</h3>
-                    <p>হঠাৎ মনে হলো, ঘরের পরিচিত জিনিসগুলো যেন অস্বাভাবিক বড় হয়ে গেছে, কিংবা হাত-পা নিজের চেয়ে ছোট মনে হচ্ছে। কখনো আবার সময় দ্রুত ছুটছে, কখনো চারপাশের সবকিছু মনে হচ্ছে স্বপ্নের মতো।</p>
+                    <p>
+                        হঠাৎ মনে হলো, ঘরের পরিচিত জিনিসগুলো যেন অস্বাভাবিক বড় হয়ে গেছে,
+                        কিংবা হাত-পা নিজের চেয়ে ছোট মনে হচ্ছে। কখনো আবার সময় দ্রুত ছুটছে,
+                        কখনো চারপাশের সবকিছু মনে হচ্ছে স্বপ্নের মতো।
+                    </p>
                     <a href="#" class="btn btn-dark px-3 py-2 text-white">Read More</a>
                 </div>
             </div>
@@ -127,26 +140,33 @@
             <h2 class="mb-3 ps-3 border-start border-5 border-dark">Latest News</h2>
             <div class="d-flex flex-column gap-1">
                 <!-- 1st News -->
-                 <div class="d-flex gap-3 justify-content-center align-items-start">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-02.png" width="160px" height="80px" alt="News Image" class="img-fluid img-thumbnail">
-                    <h5>ফুলগুলো অকালে ঝরে গেল, এই কষ্ট নিতে পারছি না: আবুল হায়াত</h5>
+                <div class="d-flex gap-3 justify-content-center align-items-center">
+                    <img src="assets/Images/img-02.png" width="160px" height="80px" alt="News Image"
+                        class="img-fluid img-thumbnail" />
+                    <h5>ফুলগুলো অকালে ঝরে গেল, এই কষ্ট নিতে পারছি না: আবুল হায়াত</h5>
                 </div>
-                <hr>
+                <hr />
                 <!-- 2nd News -->
-                <div class="d-flex gap-3 justify-content-start align-items-start">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-04.png" width="160px" height="80px" alt="News Image" class="img-fluid img-thumbnail">
-                    <h5>মুন্সিগঞ্জ পলিটেকনিকে সাধারণ শিক্ষার্থীদের ওপর ছাত্রদলের অতর্কিত হামলা: আহত অন্তত ২০</h5>
+                <div class="d-flex gap-3 justify-content-start align-items-center">
+                    <img src="assets/Images/img-04.png" width="160px" height="80px" alt="News Image"
+                        class="img-fluid img-thumbnail" />
+                    <h5>
+                        মুন্সিগঞ্জ পলিটেকনিকে সাধারণ শিক্ষার্থীদের ওপর ছাত্রদলের অতর্কিত
+                        হামলা: আহত অন্তত ২০
+                    </h5>
                 </div>
-                <hr>
+                <hr />
                 <!-- 3rd News -->
-                <div class="d-flex gap-3 justify-content-start align-items-start">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-01.png" width="160px" height="80px" alt="News Image" class="img-fluid img-thumbnail">
+                <div class="d-flex gap-3 justify-content-start align-items-center">
+                    <img src="assets/Images/img-01.png" width="160px" height="80px" alt="News Image"
+                        class="img-fluid img-thumbnail" />
                     <h5>'অ্যালিস ইন ওয়ান্ডারল্যান্ড সিনড্রোম’ সম্পর্কে জানেন?</h5>
                 </div>
-                <hr>
+                <hr />
                 <!-- 4th News -->
-                <div class="d-flex gap-3 justify-content-start align-items-start">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" width="160px" height="80px" alt="News Image" class="img-fluid img-thumbnail">
+                <div class="d-flex gap-3 justify-content-start align-items-center">
+                    <img src="assets/Images/img-03.png" width="160px" height="80px" alt="News Image"
+                        class="img-fluid img-thumbnail" />
                     <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
                 </div>
             </div>
@@ -156,47 +176,72 @@
     <!-- Latest News Section -->
     <section class="container d-flex flex-column gap-3 py-5">
         <h2 class="mb-3 ps-3 border-start border-5 border-dark">Latest News</h2>
-        <div class="row g-2 align-items-center justify-content-between">
+        <div class="row g-2 align-items-stretch justify-content-between">
             <!-- Card 01 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-03.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <h5 class="news-card-title">
+                            বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো
+                        </h5>
+                        <p class="news-card-text">
+                            বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল
+                            হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...
+                        </p>
+                        <a href="#" class="btn btn-sm-link">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 02 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-02.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            ফুলগুলো অকালে ঝরে গেল, এই কষ্ট নিতে পারছি না: আবুল হায়াত
+                        </h5>
+                        <p class="news-card-text">
+                            ফুলগুলো অকালে ঝরে গেল, এই কষ্ট নিতে পারছি না: আবুল হায়াত
+                        </p>
+                        <a href="#" class="btn btn-sm-link">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 03 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-04.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            মুন্সিগঞ্জ পলিটেকনিকে সাধারণ শিক্ষার্থীদের ওপর ছাত্রদলের অতর্কিত
+                            হামলা: আহত অন্তত ২০
+                        </h5>
+                        <p class="news-card-text">
+                            মুন্সিগঞ্জ পলিটেকনিকে সাধারণ শিক্ষার্থীদের ওপর ছাত্রদলের অতর্কিত
+                            হামলা: আহত অন্তত ২০
+                        </p>
+                                                <a href="#" class="btn btn-sm-link">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 04 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-01.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            ‘অ্যালিস ইন ওয়ান্ডারল্যান্ড সিনড্রোম’ সম্পর্কে জানেন?
+                        </h5>
+                        <p class="news-card-text">
+                            হঠাৎ মনে হলো, ঘরের পরিচিত জিনিসগুলো যেন অস্বাভাবিক বড় হয়ে গেছে,
+                            কিংবা হাত-পা নিজের চেয়ে ছোট মনে হচ্ছে। কখনো আবার সময় দ্রুত
+                            ছুটছে, কখনো চারপাশের সবকিছু মনে হচ্ছে স্বপ্নের মতো।
+                        </p>
+                                                <a href="#" class="btn btn-sm-link">Read More</a>
                     </div>
                 </div>
             </div>
@@ -206,47 +251,72 @@
     <!-- National News Section -->
     <section class="container d-flex flex-column gap-3 py-5">
         <h2 class="mb-3 ps-3 border-start border-5 border-dark">National News</h2>
-        <div class="row g-2 align-items-center justify-content-between">
+        <div class="row g-2 align-items-stretch justify-content-between">
             <!-- Card 01 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-03.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো
+                        </h5>
+                        <p class="news-card-text">
+                            বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল
+                            হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...
+                        </p>
+                        <a href="#" class="btn btn-sm-link mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 02 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-02.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            ফুলগুলো অকালে ঝরে গেল, এই কষ্ট নিতে পারছি না: আবুল হায়াত
+                        </h5>
+                        <p class="news-card-text">
+                            ফুলগুলো অকালে ঝরে গেল, এই কষ্ট নিতে পারছি না: আবুল হায়াত
+                        </p>
+                        <a href="#" class="btn btn-sm-link mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 03 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-04.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            মুন্সিগঞ্জ পলিটেকনিকে সাধারণ শিক্ষার্থীদের ওপর ছাত্রদলের অতর্কিত
+                            হামলা: আহত অন্তত ২০
+                        </h5>
+                        <p class="news-card-text">
+                            মুন্সিগঞ্জ পলিটেকনিকে সাধারণ শিক্ষার্থীদের ওপর ছাত্রদলের অতর্কিত
+                            হামলা: আহত অন্তত ২০
+                        </p>
+                        <a href="#" class="btn btn-sm-link mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 04 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-01.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            ‘অ্যালিস ইন ওয়ান্ডারল্যান্ড সিনড্রোম’ সম্পর্কে জানেন?
+                        </h5>
+                        <p class="news-card-text">
+                            হঠাৎ মনে হলো, ঘরের পরিচিত জিনিসগুলো যেন অস্বাভাবিক বড় হয়ে গেছে,
+                            কিংবা হাত-পা নিজের চেয়ে ছোট মনে হচ্ছে। কখনো আবার সময় দ্রুত
+                            ছুটছে, কখনো চারপাশের সবকিছু মনে হচ্ছে স্বপ্নের মতো।
+                        </p>
+                        <a href="#" class="btn btn-sm-link mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
@@ -255,48 +325,75 @@
 
     <!-- Educational News Section -->
     <section class="container d-flex flex-column gap-3 py-5">
-        <h2 class="mb-3 ps-3 border-start border-5 border-dark">Educational News</h2>
-        <div class="row g-2 align-items-center justify-content-between">
+        <h2 class="mb-3 ps-3 border-start border-5 border-dark">
+            Educational News
+        </h2>
+        <div class="row g-2 align-items-stretch justify-content-between">
             <!-- Card 01 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-03.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো
+                        </h5>
+                        <p class="news-card-text">
+                            বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল
+                            হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...
+                        </p>
+                        <a href="#" class="btn btn-sm-link mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 02 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-02.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            ফুলগুলো অকালে ঝরে গেল, এই কষ্ট নিতে পারছি না: আবুল হায়াত
+                        </h5>
+                        <p class="news-card-text">
+                            ফুলগুলো অকালে ঝরে গেল, এই কষ্ট নিতে পারছি না: আবুল হায়াত
+                        </p>
+                        <a href="#" class="btn btn-sm-link mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 03 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-04.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            মুন্সিগঞ্জ পলিটেকনিকে সাধারণ শিক্ষার্থীদের ওপর ছাত্রদলের অতর্কিত
+                            হামলা: আহত অন্তত ২০
+                        </h5>
+                        <p class="news-card-text">
+                            মুন্সিগঞ্জ পলিটেকনিকে সাধারণ শিক্ষার্থীদের ওপর ছাত্রদলের অতর্কিত
+                            হামলা: আহত অন্তত ২০
+                        </p>
+                        <a href="#" class="btn btn-sm-link mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
 
             <!-- Card 04 -->
             <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card h-100 rounded shadow-sm gap-2">
-                    <img src="S:\ssdi-nsda-lvl3-assessment-demo-project-02-practice\assets\Images\img-03.png" class="card-img-top img-thumbnail" alt="News Image">
-                    <div class="card-body">
-                        <h5>বাংলাদেশে ব্রাজিলের আসার সম্ভাবনা আরও জোরালো</h5>
-                        <p>বাংলাদেশে ব্রাজিল জাতীয় দলের আসার সম্ভাবনা দিন দিন আরও উজ্জ্বল হচ্ছে। ঢাকায় এসে জাতীয় স্টেডিয়ামসহ কয়েকটি ভেন্যু...</p>
+                <div class="card news-card h-100 rounded shadow-sm gap-2">
+                    <img src="assets/Images/img-01.png" class="card-img-top img-thumbnail" alt="News Image" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="news-card-title">
+                            ‘অ্যালিস ইন ওয়ান্ডারল্যান্ড সিনড্রোম’ সম্পর্কে জানেন?
+                        </h5>
+                        <p class="news-card-text">
+                            হঠাৎ মনে হলো, ঘরের পরিচিত জিনিসগুলো যেন অস্বাভাবিক বড় হয়ে গেছে,
+                            কিংবা হাত-পা নিজের চেয়ে ছোট মনে হচ্ছে। কখনো আবার সময় দ্রুত
+                            ছুটছে, কখনো চারপাশের সবকিছু মনে হচ্ছে স্বপ্নের মতো।
+                        </p>
+                        <a href="#" class="btn btn-sm-link mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
@@ -309,32 +406,48 @@
             <!-- About Krypton -->
             <div class="col-lg-7 col-md-6 col-sm-12 mb-3">
                 <h5>About Krypton</h5>
-                <p>Krypton is a leading news platform providing the latest updates on national and international events. Our mission is to deliver accurate and timely news to our readers.</p>
+                <p>
+                    Krypton is a leading news platform providing the latest updates on
+                    national and international events. Our mission is to deliver
+                    accurate and timely news to our readers.
+                </p>
             </div>
-            
+
             <!-- Quick Links -->
             <div class="col-lg-2 col-md-3 col-sm-12">
                 <h5 class="mb-3">Quick Links</h5>
                 <ul class="list-unstyled d-flex flex-column gap-2">
                     <li><a href="index.html" class="text-light">Home</a></li>
-                    <li><a href="htmls/national.html" class="text-light">National</a></li>
-                    <li><a href="htmls/politics.html" class="text-light">Politics</a></li>
+                    <li>
+                        <a href="htmls/national.html" class="text-light">National</a>
+                    </li>
+                    <li>
+                        <a href="htmls/politics.html" class="text-light">Politics</a>
+                    </li>
                     <li><a href="htmls/sports.html" class="text-light">Sports</a></li>
-                    <li><a href="htmls/education.html" class="text-light">Education</a></li>
+                    <li>
+                        <a href="htmls/education.html" class="text-light">Education</a>
+                    </li>
                 </ul>
             </div>
             <!-- Contact Information -->
             <div class="col-lg-3 col-md-3 col-sm-12 gap-2">
                 <h5>Contact Information</h5>
                 <ul class="list-unstyled d-flex flex-column gap-2">
-                    <li>Email: <a href="mailto:info@krypton.com">info@krypton.com</a></li>
+                    <li>
+                        Email: <a href="mailto:info@krypton.com">info@krypton.com</a>
+                    </li>
                     <li>Phone: <a href="tel:+8801234567890">+880 1234-567890</a></li>
-                    <li>Address: <a href="https://maps.google.com/?q=Krypton+Headquarters" target="_blank">X/Y-Z Mohammadpur, Dhaka, Bangladesh</a></li>
+                    <li>
+                        Address:
+                        <a href="https://maps.google.com/?q=Krypton+Headquarters" target="_blank">X/Y-Z Mohammadpur,
+                            Dhaka, Bangladesh</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </footer>
-    
+
     <!-- Short Footer -->
     <footer class="container-fluid bd-dark text-light text-center py-2 align-items-center justify-content-center h-40">
         <p class="text-center mb-0">©2026 Krypton. All rights reserved.</p>
